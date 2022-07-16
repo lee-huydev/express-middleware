@@ -1,0 +1,74 @@
+<form action='/user-detail' method='post' enctype="application/x-www-form-urlencoded">
+   <div class='w-100'>
+      <div class='row mt-4'>
+         <label class='col-6 d-flex flex-column'>
+            <span class='mb-2'>First name</span>
+            <input
+               class='rounded px-3 py-2 border-1'
+               type='text'
+               name='firstName'
+               placeholder='Johnny'
+            />
+         </label>
+         <label class='col-6 d-flex flex-column'>
+            <span class='mb-2'>Last name</span>
+            <input
+               class='rounded px-3 py-2 border-1'
+               type='text'
+               name='lastName'
+               placeholder='Neison'
+            />
+         </label>
+      </div>
+      <div class='row mt-4'>
+         <label class='col-6 d-flex flex-column'>
+            <span class='mb-2'>Birthday</span>
+            <input
+               class='rounded px-3 py-2 border-1'
+               type='date'
+               placeholder='Johnny'
+                  name="date"
+            />
+         </label>
+         <label class='col-6 d-flex flex-column'>
+            <span class='mb-2'>Gender</span>
+            <div class='row h-100 d-flex align-items-center'>
+               <span class='col-6'>
+                  <label for='male'>Male</label>
+                  <input type='radio' id='male' value='male' name='gender' />
+               </span>
+               <span class='col-6'>
+                  <label for='female'>Female</label>
+                  <input
+                     type='radio'
+                     id='female'
+                     value='female'
+                     name='gender'
+                  />
+               </span>
+            </div>
+         </label>
+      </div>
+      <div class='row mt-4'>
+         <label class='col-6 d-flex flex-column'>
+            <span class='mb-2'>Email</span>
+            <input class='rounded px-3 py-2 border-1' type='email' name="email"/>
+         </label>
+         <label class='col-6 d-flex flex-column'>
+            <span class='mb-2'>Phone number</span>
+            <input class='rounded px-3 py-2 border-1' type='text' name="phoneNumber"/>
+         </label>
+      </div>
+      <div class='row mt-4'>
+         <label class='d-flex flex-column col-12'>
+            <span class='mb-2'>Subject</span>
+            <input class='rounded px-3 py-2 border-1' type='text' name="subject"/>
+         </label>
+      </div>
+      <div class='row mt-4'>
+         <div class='col-12'>
+            <input class='w-100 py-2 btn-submit' type='submit' value='Submit' />
+         </div>
+      </div>
+   </div>
+</form>

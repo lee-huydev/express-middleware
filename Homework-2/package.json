@@ -1,0 +1,26 @@
+{
+  "name": "middleware",
+  "version": "1.0.0",
+  "description": "This is set up node js",
+  "main": "src/index.js",
+  "repository": "",
+  "author": "Lee",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --inspect src/index.js",
+    "scss": "node-sass --watch ./src/resource/scss/ --output ./src/public/css/"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "joi": "^17.6.0"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.6.1",
+    "livereload": "^0.9.3",
+    "morgan": "^1.10.0",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

@@ -1,0 +1,4 @@
+input {
+  outline: none; }
+  input:focus {
+    outline: auto 1px #71407A; }

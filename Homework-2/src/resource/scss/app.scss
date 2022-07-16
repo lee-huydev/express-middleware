@@ -1,0 +1,7 @@
+@import 'variable';
+input{
+    outline: none;
+    &:focus {
+        outline: auto 1px $border-input;
+    }
+}
